@@ -15,7 +15,6 @@ if cam == 1:
 
 if cam == 2:
     url = raw_input('Enter IP address: ')
-    # Selections for the program
     print('Connecting to camera')
     capture = cv2.VideoCapture(url)
 
